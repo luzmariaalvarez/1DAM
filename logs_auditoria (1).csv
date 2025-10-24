@@ -1,7 +1,0 @@
-"id","tabla_objetivo","accion","llave_primaria","valores_previos","valores_nuevos","realizado_por","ip_origen","creado_en"
-"1","usuarios","INSERT","1",NULL,"{""nombre"": ""Ana Ruiz"", ""email"": ""ana@correo.com""}","root@localhost","localhost","2025-10-23 18:56:59"
-"2","usuarios","INSERT","2",NULL,"{""nombre"": ""Luis Pérez"", ""email"": ""luis@correo.com""}","root@localhost","localhost","2025-10-23 18:56:59"
-"3","pedidos","INSERT","1",NULL,"{""usuario_id"": 1, ""total"": 0.00}","root@localhost","localhost","2025-10-23 18:57:00"
-"4","pedidos","UPDATE","1","{""total"": 0.00}","{""total"": 108.90}","root@localhost","localhost","2025-10-23 18:57:00"
-"5","usuarios","UPDATE","2","{""nombre"": ""Luis Pérez"", ""email"": ""luis@correo.com""}","{""nombre"": ""Luis Pérez"", ""email"": ""luis@correo.com""}","root@localhost","localhost","2025-10-23 18:57:00"
-"6","usuarios","DELETE","2","{""nombre"": ""Luis Pérez"", ""email"": ""luis@correo.com""}",NULL,"root@localhost","localhost","2025-10-23 18:57:00"
