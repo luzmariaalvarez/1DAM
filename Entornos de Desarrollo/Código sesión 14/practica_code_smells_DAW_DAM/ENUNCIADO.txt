@@ -1,0 +1,22 @@
+PRÁCTICA 2º DAW SAM – CODE SMELLS
+
+El código funciona, pero está mal hecho.
+
+OBJETIVO:
+Mejorar la calidad del código SIN cambiar su comportamiento.
+
+PARTE A – JAVA
+1. Analiza Factura.java
+2. Detecta problemas de calidad (nombres, método largo, números mágicos)
+3. Refactoriza el código:
+   - Cambia nombres
+   - Extrae métodos
+   - Mantén el mismo resultado
+
+PARTE B – HTML / CSS
+1. Detecta duplicación
+2. Elimina código repetido
+3. Mejora ligeramente el diseño
+
+REGLA CLAVE:
+No se pueden añadir funcionalidades nuevas.
