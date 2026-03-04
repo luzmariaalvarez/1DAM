@@ -3,7 +3,7 @@
    ========================================================= */
 
 
-CREATE DATABASE tienda_DAW;
+CREATE DATABASE tienda_DAM;
 
 -- =========================
 -- 1) CLIENTES (1:N con pedidos)
