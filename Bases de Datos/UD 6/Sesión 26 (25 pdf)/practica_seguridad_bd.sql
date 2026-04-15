@@ -37,14 +37,32 @@ CREATE TABLE clientes_pseudo (
     codigo VARCHAR(10)
 );
 
+
+
+CREATE TABLE clientes2 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    dni VARCHAR(20),
+    email VARCHAR(100),
+    edad INT
+);
+
+-- 3. Insertar datos
+INSERT INTO cliente2 (nombre, dni, email, edad) VALUES
+('Juan Perez', '12345678A', 'juan@gmail.com', 30),
+('Maria Lopez', '87654321B', 'maria@gmail.com', 25),
+('Carlos Ruiz', '11223344C', 'carlos@gmail.com', 40);
+
 INSERT INTO clientes_pseudo VALUES
-(1, 'ID001'),
-(2, 'ID002'),
-(3, 'ID003');
+(4, 'ID004'),
+(5, 'ID005'),
+(6, 'ID006');
 
 SELECT p.codigo, c.edad
-FROM clientes c
+FROM clientes2 c
 JOIN clientes_pseudo p ON c.id = p.id;
+
+SELECT p.codigo, c.edad, c.nombre FROM clientes2 c JOIN clientes_pseudo p ON c.id = p.id;
 
 
 -- 8. Craer tabla e Insertar datos
